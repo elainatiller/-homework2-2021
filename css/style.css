@@ -1,17 +1,17 @@
 
 h1{
     font-size: 64px;
-    text-align: center;
     text-emphasis: center;
     color:white;
 }
 h2{
-    font-size:  30px;
-    text-shadow: 5px 5px 2px #808080;
+    font-size: 32px;
+    text-shadow: #808080;
+    offset: 4px 4px 2px;
 }
 p{
     font-size: 24px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 img{
     display: block;
@@ -20,11 +20,12 @@ img{
     padding: 10px;
 }
 div{
-    min-height: 100px;
-    padding:20px;
+    min-height: 150px;
+    padding:25px;
 }
 #blue{
     background-color: blue;
+    text-align: left;
 }
 #red{
     background-color: red;
@@ -39,12 +40,14 @@ div{
 }
 #yellow h2{
     color:black;
-    text-shadow: 4px 4px 2px gray;
+    text-shadow: 4px 4px 2px#c7e2c7;
 }
 #green{
     background-color: green;
+    text-align: left;
 }
-footer{
+p footer{
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
