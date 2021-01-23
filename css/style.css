@@ -1,0 +1,50 @@
+
+h1{
+    font-size: 64px;
+    text-align: center;
+    text-emphasis: center;
+    color:white;
+}
+h2{
+    font-size:  30px;
+    text-shadow: 5px 5px 2px #808080;
+}
+p{
+    font-size: 24px;
+    padding-top: 20px;
+}
+img{
+    display: block;
+    margin:auto;
+    width: 550px;
+    padding: 10px;
+}
+div{
+    min-height: 100px;
+    padding:20px;
+}
+#blue{
+    background-color: blue;
+}
+#red{
+    background-color: red;
+    text-align: right;
+}
+#yellow{
+    background-color: yellow;
+    text-align: right;
+}
+#yellow p{
+    color:black;
+}
+#yellow h2{
+    color:black;
+    text-shadow: 4px 4px 2px gray;
+}
+#green{
+    background-color: green;
+}
+footer{
+    text-align: center;
+    padding-bottom: 15px;
+}
