@@ -1,13 +1,17 @@
-
+body{
+    font-family: "Times New Roman", Times, serif;
+    background-color:#000000;
+    color:#FFFFFF;
+}
 h1{
     font-size: 64px;
-    text-emphasis: center;
-    color:white;
+    text-align: center;
+    padding: 10px;
+    
 }
 h2{
     font-size: 32px;
-    text-shadow: #808080;
-    offset: 4px 4px 2px;
+    text-shadow: 4px 4px 2px #808080;
 }
 p{
     font-size: 24px;
@@ -46,7 +50,7 @@ div{
     background-color: green;
     text-align: left;
 }
-p footer{
+footer{
     text-align: center;
     padding-bottom: 10px;
     padding-right: 10px;
